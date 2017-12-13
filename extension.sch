@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -15071,9 +15071,9 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <part name="GND_EXT_3" library="foxBMS_BMS-Master_V1.00_A" deviceset="GND_EXT_2" device=""/>
 <part name="GND_EXT_7" library="foxBMS_BMS-Master_V1.00_A" deviceset="GND_EXT_2" device=""/>
 <part name="GND_EXT_13" library="foxBMS_BMS-Master_V1.00_A" deviceset="GND_EXT_2" device=""/>
-<part name="F1001" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="630MA"/>
-<part name="F1002" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="630MA"/>
-<part name="F1003" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="630MA"/>
+<part name="F1001" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="4,00A" value="4,00A_UMT"/>
+<part name="F1002" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="4,00A" value="4,00A_UMT"/>
+<part name="F1003" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="4,00A" value="4,00A_UMT"/>
 <part name="R1101" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
 <part name="R1102" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
 <part name="R1103" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
